@@ -6,9 +6,7 @@ public class Utility {
  */
 	public boolean isFourDigit(int year)
 	{
-		if(year>=1000 && year<=9999)
-			return true;
-		
+		if(year>=1000 && year<=9999) return true;
 		return false;
 			
 	}
