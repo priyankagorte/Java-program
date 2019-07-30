@@ -22,7 +22,8 @@ public class LeapYear {
 		{
 			System.out.println("Enter Four Digit the Year");
 			mYear=scanner.nextInt();
-		}while(!utility.isFourDigit(mYear));
+		}
+		while(!utility.isFourDigit(mYear));
 		
 		if(mYear%4==00|| mYear%100==0 && mYear%400==00)
 			System.out.println(mYear+ " is Leap Year");
