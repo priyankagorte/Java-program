@@ -25,11 +25,14 @@ public class LeapYear {
 		}
 		while(!utility.isFourDigit(mYear));
 		
-		if(mYear%4==00|| mYear%100==0 && mYear%400==00)
+		if(mYear%4==00|| mYear%100==0 && mYear%400==00) //to check the year is leap year
+		{
 			System.out.println(mYear+ " is Leap Year");
+		}
 		else
+		{
 			System.out.println(mYear+ " is NOT Leap Year");
 
-
+		}
 	}
 }
