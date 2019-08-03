@@ -1,3 +1,16 @@
+
+/**
+*@purpose	:Simulates a gambler who start with $stake and place fair $1 bets until
+he/she goes broke reach $goal. Keeps track of the number of
+times he/she wins and the number of bets he/she makes. Run the experiment N
+times, averages the results, and prints them out
+*@author	:Priynaka Gorte
+*@version 	:1.8
+*@since		:30-07-2019
+*/
+
+
+
 package com.bridgelab.functional;
 import java.util.Scanner;
 
